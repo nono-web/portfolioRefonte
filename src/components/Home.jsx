@@ -1,7 +1,7 @@
 import styled from 'styled-components';
 import hello from '../assets/hello.png';
 import imgHome from '../assets/img-home2.jpg';
-import { mobile } from '../responsive';
+import { desktop } from '../responsive';
 
 const Container = styled.div`
   background-image: url(${imgHome});
@@ -10,19 +10,19 @@ const Container = styled.div`
   flex-direction:  column;
   justify-content: center;
   align-items: center;
-  ${mobile({ backgroundSize:'cover'})}
+  ${desktop({ backgroundSize:'cover'})}
 `;
 
 const Image = styled.img`
   width: 20rem;
-  ${mobile({ width: '28rem'})}
+  ${desktop({ width: '28rem'})}
 `;
 
 const Title = styled.div`
   height: 3rem;
   overflow: hidden;
   text-align: center;
-  ${mobile({ marginBottom: '1rem'})}
+  ${desktop({ marginBottom: '1rem'})}
 `;
 
 const TitleWrapper = styled.div`
@@ -50,7 +50,7 @@ const TitleItem = styled.div`
   display: flex;
   align-items: center;
   justify-content: center;
-  ${mobile({ fontSize:'2.6rem'})}
+  ${desktop({ fontSize:'2.6rem'})}
 `;
 
 const Desc = styled.div`
@@ -58,7 +58,7 @@ display: flex;
 align-items: center;
 flex-direction: column;
 margin-top: 1.5rem;
-${mobile({ flexDirection: 'row', marginBottom: '1rem'})}
+${desktop({ flexDirection: 'row', marginBottom: '1rem'})}
 `;
 
 const DescItem = styled.div`
@@ -68,7 +68,7 @@ background-color: #3b556d;
   font-size: 1.1rem;
   text-align: center;
   margin-bottom: 1rem;
-  ${mobile({ marginTop: '0rem', fontSize:'1.3rem', paddingLeft:'0.6rem', fontWeight:'bold'})}
+  ${desktop({ marginTop: '0rem', fontSize:'1.3rem', paddingLeft:'0.6rem', fontWeight:'bold'})}
 `;
 
 const Home = () => {

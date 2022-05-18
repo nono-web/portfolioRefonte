@@ -1,6 +1,6 @@
 import React from 'react';
 import styled from 'styled-components';
-import { mobile } from '../responsive';
+import { desktop } from '../responsive';
 import { products } from '../data';
 import creation from '../assets/artnono.png';
 import Product from './Product';
@@ -15,7 +15,7 @@ const Title = styled.h1`
   font-size: 1.6rem;
   padding: 1rem 1rem 0rem 1rem;
   text-align: center;
-  ${mobile({ fontSize: '3rem' })}
+  ${desktop({ fontSize: '3rem' })}
 `;
 
 
@@ -24,7 +24,7 @@ const ImageTitle = styled.img`
   width: 12rem;
   display: block;
   margin: 0rem auto;
-  ${mobile({ width: '20rem' })}
+  ${desktop({ width: '20rem' })}
 `;
 const ProductsList = styled.div`
 
@@ -34,7 +34,7 @@ const Products = styled.div`
 display: flex;
 flex-direction:column;
 align-items:center;
-${mobile({ display:'grid', gridTemplateColumns:'1fr 1fr', gridTemplateRows:' 1fr 1fr 1fr 1fr', gap:'50px 50px', width:'90%', margin:' 0 auto' })}
+${desktop({ display:'grid', gridTemplateColumns:'1fr 1fr', gridTemplateRows:' 1fr 1fr 1fr 1fr', gap:'50px 50px', width:'90%', margin:' 0 auto' })}
 `;
 
 

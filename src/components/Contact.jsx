@@ -5,7 +5,7 @@ import { useForm } from 'react-hook-form';
 import { yupResolver } from '@hookform/resolvers/yup';
 import * as yup from 'yup';
 import { init } from 'emailjs-com';
-import { mobile } from '../responsive';
+import { desktop } from '../responsive';
 import mail from '../assets/mailnono.png';
 init(' user_mHtCtPRmfXansncIGdpdq ');
 
@@ -18,7 +18,7 @@ const Title = styled.h1`
   font-size: 1.6rem;
   padding: 1rem 1rem 0rem 1rem;
   text-align: center;
-  ${mobile({ fontSize: '3rem' })}
+  ${desktop({ fontSize: '3rem' })}
 `;
 
 
@@ -27,14 +27,14 @@ const ImageTitle = styled.img`
   width: 12rem;
   display: block;
   margin: 0rem auto;
-  ${mobile({ width: '20rem' })}
+  ${desktop({ width: '20rem' })}
 `;
 const LittleTitle = styled.h2`
   color: white;
   font-size: 1.2rem;
   text-align: center;
   padding: 1rem;
-  ${mobile({ fontSize: '2rem' })}
+  ${desktop({ fontSize: '2rem' })}
 `;
 
 const Form = styled.form`
@@ -43,7 +43,7 @@ const Form = styled.form`
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  ${mobile({  width:'40%', margin:' 0 auto' })}
+  ${desktop({  width:'40%', margin:' 0 auto' })}
  
 `;
 

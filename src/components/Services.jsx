@@ -1,6 +1,6 @@
 import React from 'react';
 import styled from 'styled-components';
-import { mobile } from '../responsive';
+import { desktop } from '../responsive';
 import ordi from '../assets/ordi.png'
 import siteVitrine from '../assets/site-internet.png';
 import rafraichissement from '../assets/rafraichissement.png';
@@ -19,7 +19,7 @@ const Title = styled.h1`
   font-size: 1.6rem;
   padding: 1rem 1rem 0rem 1rem;
   text-align: center;
-  ${mobile({ fontSize: '3rem' })}
+  ${desktop({ fontSize: '3rem' })}
 `;
 
 
@@ -28,7 +28,7 @@ const ImageTitle = styled.img `
 width: 12rem;
 display: block;
 margin: 0rem auto;
-${mobile({ width: '20rem' })}
+${desktop({ width: '20rem' })}
 `
 
 
@@ -37,7 +37,7 @@ const LittleTitle = styled.h2`
   font-size: 1.2rem;
   text-align: center;
   padding: 1rem;
-  ${mobile({ fontSize: '2.5rem' })}
+  ${desktop({ fontSize: '2.5rem' })}
 `;
 
 const RowContainer = styled.div`
@@ -46,7 +46,7 @@ const RowContainer = styled.div`
   align-items: center;
   justify-content: center;
   padding-bottom: 1.5rem;
-  ${mobile({ flexDirection: 'row' })}
+  ${desktop({ flexDirection: 'row' })}
 `;
 
 const ColumnContainer = styled.div`
@@ -58,7 +58,7 @@ const ColumnContainer = styled.div`
       background-color: #1c2942;
       border-radius: 2rem;
       margin:1rem;
-      ${mobile({ margin: '0' })}
+      ${desktop({ margin: '0' })}
   }
 `;
 
@@ -66,9 +66,9 @@ const Image = styled.img`
   width: 60%;
   &:hover {
       margin:1rem;
-      ${mobile({ margin: '0' })}
+      ${desktop({ margin: '0' })}
   }
-  ${mobile({ width: '50%' })}
+  ${desktop({ width: '50%' })}
 `;
 
 const TitleDesc = styled.h3`

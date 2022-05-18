@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import styled, { keyframes } from 'styled-components';
-import { mobile } from '../responsive';
+import { desktop } from '../responsive';
 
 const Container = styled.div``;
 
@@ -38,9 +38,9 @@ color: white;
   right: 0.5vw;
   animation: ${bump} 2s infinite linear alternate;
   &:hover {
-    opacity: 1;
+    opacity: 5;
   }
-  ${mobile({width:'3rem', height: '3rem'})}
+  ${desktop({width:'3rem', height: '3rem'})}
 `;
 
 const ScrollArrow = () => {

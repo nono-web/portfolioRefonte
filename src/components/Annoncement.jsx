@@ -1,5 +1,5 @@
 import styled from 'styled-components';
-import { mobile } from '../responsive';
+import { desktop } from '../responsive';
 
 const Container = styled.div`
   width: 100%;
@@ -34,7 +34,7 @@ font-size: 0.9rem;
 
 const SocialContainer = styled.div`
   display: none;
-  ${mobile({
+  ${desktop({
     display: 'flex',
     justifyContent: 'center',
     alighItems: 'center',

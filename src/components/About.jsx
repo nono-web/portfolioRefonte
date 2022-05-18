@@ -10,7 +10,7 @@ import mongo from '../assets/mongo.png';
 import mysql from '../assets/mysql.png';
 import wp from '../assets/WP.png';
 import next from '../assets/next.png';
-import { mobile } from '../responsive';
+import { desktop } from '../responsive';
 
 const Container = styled.div`
   background-color: #1c2942;
@@ -26,7 +26,7 @@ const Title = styled.h1`
   font-size: 1.6rem;
   padding: 1rem 1rem 0rem 1rem;
   text-align: center;
-  ${mobile({fontSize:'3rem'})}
+  ${desktop({fontSize:'3rem'})}
 `;
 
 
@@ -34,14 +34,14 @@ const Title = styled.h1`
 
 const Image = styled.img`
   width: 11rem;
-  ${mobile({ width: '15rem'})}
+  ${desktop({ width: '15rem'})}
 `;
 const Desc = styled.div``;
 const DescText = styled.p`
   color: #ccc1c1;
   text-align: center;
   padding: 1rem;
-  ${mobile({ fontSize:'1.5rem', padding:'1rem 3rem' })}
+  ${desktop({ fontSize:'1.5rem', padding:'1rem 3rem' })}
 `;
 
 const TitleSkill = styled.h2`
@@ -49,7 +49,7 @@ const TitleSkill = styled.h2`
   font-size: 1.4rem;
   padding: 1rem 1rem 1rem 1rem;
   text-align: center;
-  ${mobile({fontSize:'2.5rem', marginBottom: '2rem', marginTop:'1rem'})}
+  ${desktop({fontSize:'2.5rem', marginBottom: '2rem', marginTop:'1rem'})}
 `;
 
 const Skill = styled.div`
@@ -62,7 +62,7 @@ const Skill = styled.div`
     '. .'
     '. .'
     '. .';
-    ${mobile({display:'flex', flexDirection:'row', justifyContent:'space-evenly', alignItems:'center'})}
+    ${desktop({display:'flex', flexDirection:'row', justifyContent:'space-evenly', alignItems:'center'})}
 `;
 
 const SkillItem = styled.img`
@@ -77,7 +77,7 @@ const SkillItem = styled.img`
   &:hover {
     transform: scale(1.2);
   }
-  ${mobile({width:'8%', marginBottom: '1rem', marginLeft:'0rem'})}
+  ${desktop({width:'8%', marginBottom: '1rem', marginLeft:'0rem'})}
 `;
 
 const About = () => {

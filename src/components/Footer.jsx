@@ -1,13 +1,13 @@
 import styled from 'styled-components';
 import logo from '../assets/logo.png';
-import { mobile } from '../responsive';
+import { desktop } from '../responsive';
 
 const Container = styled.div`
   background-color: #5fc2ba;
   display: flex;
   flex-direction: column;
   text-align: center;
-  ${mobile({ flexDirection: 'row' })}
+  ${desktop({ flexDirection: 'row' })}
 `;
 
 const Left = styled.div`
@@ -30,7 +30,7 @@ const Link = styled.a`
 const Logo = styled.img`
   width: 50%;
   padding: 1rem;
-  ${mobile({ width: '70%', padding: '3rem' })}
+  ${desktop({ width: '70%', padding: '3rem' })}
 `;
 
 const Center = styled.div`
@@ -45,7 +45,7 @@ const List = styled.ul`
   list-style: none;
 
   padding: 0rem 1.3rem;
-  ${mobile({ padding: '5rem', fontSize: '3rem' })}
+  ${desktop({ padding: '5rem', fontSize: '3rem' })}
 `;
 
 const ListItem = styled.li`
@@ -60,9 +60,9 @@ const ListItem = styled.li`
   &:nth-child(1) {
     font-weight: bold;
     font-size: 2rem;
-    ${mobile({ fontSize: '3rem' })}
+    ${desktop({ fontSize: '3rem' })}
   }
-  ${mobile({ fontSize: '1.6rem', marginBottom: '3rem' })}
+  ${desktop({ fontSize: '1.6rem', marginBottom: '3rem' })}
 `;
 
 const Right = styled.div`
@@ -74,7 +74,7 @@ const SocialContainer = styled.div`
   flex-direction: row;
   align-items: center;
   justify-content: space-evenly;
-  ${mobile({ padding: '9.8rem' })}
+  ${desktop({ padding: '9.8rem' })}
 `;
 
 
@@ -88,7 +88,7 @@ const SocialIcon = styled.div`
   &:hover {
     color: black;
   }
-  ${mobile({ width: '3rem' })}
+  ${desktop({ width: '3rem' })}
 `;
 
 const Footer = () => {

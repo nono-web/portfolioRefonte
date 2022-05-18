@@ -1,6 +1,6 @@
 import styled from 'styled-components';
 import logo from '../assets/logo.png';
-import { mobile } from '../responsive';
+import { desktop } from '../responsive';
 
 const Container = styled.div`
   background-color: #3b556d;
@@ -14,7 +14,7 @@ const NavList = styled.ul`
   list-style: none;
   color: white;
   text-align: center;
-  ${mobile({ padding: '1rem 0rem' })}
+  ${desktop({ padding: '1rem 0rem' })}
  
 `;
 
@@ -37,13 +37,13 @@ const ListItem = styled.li`
   &:hover {
     border-bottom: 4px solid white;
   }
-  ${mobile({ margin: '0rem', fontSize: '1.3rem' })}
+  ${desktop({ margin: '0rem', fontSize: '1.3rem' })}
 `;
 
 const Logo = styled.img`
   width: 100%;
   cursor: pointer;
-  ${mobile({ width: '9rem' })}
+  ${desktop({ width: '9rem' })}
 `;
 
 const Navbar = () => {
