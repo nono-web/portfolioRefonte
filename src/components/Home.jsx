@@ -5,7 +5,7 @@ import { mobile } from '../responsive';
 
 const Container = styled.div`
   background-image: url(${imgHome});
-  height: 80vh;
+  height: 100vh;
   display: flex;
   flex-direction:  column;
   justify-content: center;
@@ -15,7 +15,7 @@ const Container = styled.div`
 
 const Image = styled.img`
   width: 20rem;
-  ${mobile({ width: '30rem'})}
+  ${mobile({ width: '28rem'})}
 `;
 
 const Title = styled.div`
@@ -68,7 +68,7 @@ background-color: #3b556d;
   font-size: 1.1rem;
   text-align: center;
   margin-bottom: 1rem;
-  ${mobile({ marginTop: '0rem', fontSize:'1.5rem', paddingLeft:'0.6rem', fontWeight:'bold'})}
+  ${mobile({ marginTop: '0rem', fontSize:'1.3rem', paddingLeft:'0.6rem', fontWeight:'bold'})}
 `;
 
 const Home = () => {
