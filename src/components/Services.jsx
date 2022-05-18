@@ -22,15 +22,7 @@ const Title = styled.h1`
   ${mobile({ fontSize: '3rem' })}
 `;
 
-const Link = styled.a`
-  &:visited,
-  &:active,
-  &:link {
-    text-decoration: none;
-    color: white;
-    text-align: center;
-  }
-`;
+
 
 const ImageTitle = styled.img `
 width: 12rem;
@@ -90,9 +82,7 @@ const Services = () => {
   return (
     <Container id="Services">
       <Title> SERVICES </Title>
-      <Link href="#About">
       <ImageTitle src={ordi} alt="ordi" />
-      </Link>
       <LittleTitle> Les différents services de NonoduWeb : </LittleTitle>
       <RowContainer>
         <ColumnContainer>

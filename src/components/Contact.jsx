@@ -21,15 +21,7 @@ const Title = styled.h1`
   ${mobile({ fontSize: '3rem' })}
 `;
 
-const Link = styled.a`
-  &:visited,
-  &:active,
-  &:link {
-    text-decoration: none;
-    color: white;
-    text-align: center;
-  }
-`;
+
 
 const ImageTitle = styled.img`
   width: 12rem;
@@ -171,10 +163,8 @@ const Contact = () => {
 
   return (
     <Container id="Contact">
-      <Title> CONTACTEZ-MOI </Title>
-      <Link href="#Creation">
+      <Title> CONTACTEZ-MOI </Title> 
       <ImageTitle src={mail} alt="mail" />
-      </Link>
       <LittleTitle>
         {' '}
         Le chemin le plus simple pour me contacter pour votre projet ou juste

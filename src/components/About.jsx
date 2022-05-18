@@ -30,15 +30,7 @@ const Title = styled.h1`
 `;
 
 
-const Link = styled.a`
-  &:visited,
-  &:active,
-  &:link {
-    text-decoration: none;
-    color: white;
-    text-align: center;
-  }
-`;
+
 
 const Image = styled.img`
   width: 11rem;
@@ -93,9 +85,7 @@ const About = () => {
     <Container id="About">
       <Header>
         <Title> TU ES QUI NONODUWEB ? </Title>
-        <Link href="/#Home">
         <Image src={nonoduweb} alt="nonoduweb" />
-        </Link>
       </Header>
       <Desc>
         <DescText>

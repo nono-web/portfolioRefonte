@@ -18,15 +18,7 @@ const Title = styled.h1`
   ${mobile({ fontSize: '3rem' })}
 `;
 
-const Link = styled.a`
-  &:visited,
-  &:active,
-  &:link {
-    text-decoration: none;
-    color: white;
-    text-align: center;
-  }
-`;
+
 
 const ImageTitle = styled.img`
   width: 12rem;
@@ -50,9 +42,7 @@ const ProductList = () => {
   return (
     <Container id="Creation">
       <Title>MES REALISATIONS</Title>
-      <Link href="#Services">
       <ImageTitle src={creation} alt="product" />
-      </Link>
       <ProductsList>
         <Products>
         {products.map((item) => (
