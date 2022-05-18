@@ -25,7 +25,7 @@ const Icon = styled.div`
 `;
 
 const Desc = styled.p`
-font-size: 0.9rem;
+font-size: 0.7rem;
   display: flex;
   align-items: center;
   justify-content: center;

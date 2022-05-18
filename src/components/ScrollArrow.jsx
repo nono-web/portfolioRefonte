@@ -24,7 +24,6 @@ const bump = keyframes`
 
   100% {
     bottom: 0;
-
   }
 `;
 
@@ -35,12 +34,12 @@ color: white;
   width: 2.5rem;
   position: fixed;
   bottom: 1vh;
-  right: 0.5vw;
+  right: 2.5vw;
   animation: ${bump} 2s infinite linear alternate;
   &:hover {
     opacity: 5;
   }
-  ${desktop({width:'3rem', height: '3rem'})}
+  ${desktop({width:'3rem', height: '3rem', right:'0.4vw'})}
 `;
 
 const ScrollArrow = () => {

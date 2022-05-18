@@ -13,7 +13,7 @@ import next from '../assets/next.png';
 import { desktop } from '../responsive';
 
 const Container = styled.div`
-  background-color: #1c2942;
+  background-color: #283e68;
 `;
 const Header = styled.div`
   display: flex;
@@ -26,22 +26,19 @@ const Title = styled.h1`
   font-size: 1.6rem;
   padding: 1rem 1rem 0rem 1rem;
   text-align: center;
-  ${desktop({fontSize:'3rem'})}
+  ${desktop({ fontSize: '3rem' })}
 `;
-
-
-
 
 const Image = styled.img`
   width: 11rem;
-  ${desktop({ width: '15rem'})}
+  ${desktop({ width: '15rem' })}
 `;
 const Desc = styled.div``;
 const DescText = styled.p`
   color: #ccc1c1;
   text-align: center;
-  padding: 1rem;
-  ${desktop({ fontSize:'1.5rem', padding:'1rem 3rem' })}
+  padding: 1rem 2rem;
+  ${desktop({ fontSize: '1.5rem', padding: '1rem 3rem' })}
 `;
 
 const TitleSkill = styled.h2`
@@ -49,7 +46,7 @@ const TitleSkill = styled.h2`
   font-size: 1.4rem;
   padding: 1rem 1rem 1rem 1rem;
   text-align: center;
-  ${desktop({fontSize:'2.5rem', marginBottom: '2rem', marginTop:'1rem'})}
+  ${desktop({ fontSize: '2.5rem', marginBottom: '2rem', marginTop: '1rem' })}
 `;
 
 const Skill = styled.div`
@@ -62,7 +59,12 @@ const Skill = styled.div`
     '. .'
     '. .'
     '. .';
-    ${desktop({display:'flex', flexDirection:'row', justifyContent:'space-evenly', alignItems:'center'})}
+  ${desktop({
+    display: 'flex',
+    flexDirection: 'row',
+    justifyContent: 'space-evenly',
+    alignItems: 'center',
+  })}
 `;
 
 const SkillItem = styled.img`
@@ -70,14 +72,14 @@ const SkillItem = styled.img`
   border-radius: 50%;
   width: 50%;
   margin-left: 3rem;
-  
+
   &:nth-child(9) {
     margin-bottom: 1rem;
   }
   &:hover {
     transform: scale(1.2);
   }
-  ${desktop({width:'8%', marginBottom: '1rem', marginLeft:'0rem'})}
+  ${desktop({ width: '8%', marginBottom: '1rem', marginLeft: '0rem' })}
 `;
 
 const About = () => {

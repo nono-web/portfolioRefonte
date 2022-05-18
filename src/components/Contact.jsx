@@ -33,7 +33,7 @@ const LittleTitle = styled.h2`
   color: white;
   font-size: 1.2rem;
   text-align: center;
-  padding: 1rem;
+  padding: 1rem 2rem;
   ${desktop({ fontSize: '2rem' })}
 `;
 
@@ -55,7 +55,7 @@ const Input = styled.input`
   margin: 0.8rem 3rem 0.8rem 2rem;
   font-size: 1rem;
   padding-left: 0.8rem;
-  background-color: #1c2942;
+  background-color: #283e68;
   &::placeholder {
     color: white;
     font-weight: 500;
@@ -82,7 +82,7 @@ const Textarea = styled.textarea`
   padding-left: 0.8rem;
   border: none;
   border-radius: 1.25rem;
-  background-color: #1c2942;
+  background-color: #283e68;;
   &:hover {
     background-color: #5fc2ba
   }
@@ -97,7 +97,7 @@ const Button = styled.button`
  margin-bottom: 1.5rem;
   padding: 1rem;
   border-radius: 1.25rem;
-  background-color: #1c2942;
+  background-color: #283e68;;
   color: white;
   font-weight: 500;
   cursor: pointer;

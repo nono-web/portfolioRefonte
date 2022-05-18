@@ -60,7 +60,7 @@ const Navbar = () => {
           <Logo src={logo} />
         </Link>
         <Link href="#Creation">
-          <ListItem>Mes réalisations</ListItem>
+          <ListItem>Mes Réalisations</ListItem>
         </Link>
         <Link href="#Contact">
           <ListItem>Contact</ListItem>

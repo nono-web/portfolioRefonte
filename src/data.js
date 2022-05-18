@@ -17,27 +17,15 @@ export const products = [
       link: 'https://planete-terre.nonoweb17.fr/',
       title: 'Projet planete-terre en 3D',
     },
+   
     {
       id: 4,
-      img: 'https://zupimages.net/up/22/07/yjj3.png',
-      link: 'https://snake.nonoweb17.fr/',
-      title: 'Projet Retro Snake',
-    },
-    {
-      id: 5,
       img: 'https://zupimages.net/up/22/09/dhps.png',
       link: 'https://styletreize.fr/',
       title: 'Projet StyleTreize (WordPress)',
     },
     {
-      id: 6,
-      img: 'https://zupimages.net/up/21/52/ujko.png',
-      link: 'https://ecstatic-khorana-51c89c.netlify.app/',
-      title: 'Projet GreenBeens',
-    },
-   
-    {
-      id: 7,
+      id: 5,
       img: 'https://zupimages.net/up/21/52/j7ot.png',
       link: 'https://nono-web.github.io/Bto-Beach-/',
       title: 'Projet B-to-Beach ',

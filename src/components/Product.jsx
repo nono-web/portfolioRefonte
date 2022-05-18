@@ -19,7 +19,6 @@ const Link = styled.a `
   text-decoration: none;
   color: #3B556D;
   text-align:center;
-  
 }
 `
 
@@ -33,8 +32,6 @@ const Image = styled.img `
   width: 100%;
   height: 100%;
 `
-
-
 
 const Product = ({img, link, title}) => {
   return (

@@ -53,7 +53,7 @@ const ListItem = styled.li`
   flex-direction: row;
   align-items: center;
   justify-content: center;
-  font-size: 1.2rem;
+  font-size: 1.1rem;
   color: white;
   font-weight: 500;
   margin-bottom: 1.25rem;
@@ -62,7 +62,7 @@ const ListItem = styled.li`
     font-size: 2rem;
     ${desktop({ fontSize: '3rem' })}
   }
-  ${desktop({ fontSize: '1.6rem', marginBottom: '3rem' })}
+  ${desktop({ fontSize: '1.5rem', marginBottom: '3rem' })}
 `;
 
 const Right = styled.div`

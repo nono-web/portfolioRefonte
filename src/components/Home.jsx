@@ -1,6 +1,6 @@
 import styled from 'styled-components';
 import hello from '../assets/hello.png';
-import imgHome from '../assets/img-home2.jpg';
+import imgHome from '../assets/img-home3.jpg';
 import { desktop } from '../responsive';
 
 const Container = styled.div`
@@ -22,7 +22,7 @@ const Title = styled.div`
   height: 3rem;
   overflow: hidden;
   text-align: center;
-  ${desktop({ marginBottom: '1rem'})}
+  ${desktop({ marginBottom: '3rem'})}
 `;
 
 const TitleWrapper = styled.div`
@@ -44,7 +44,7 @@ const TitleWrapper = styled.div`
 
 const TitleItem = styled.div`
   height: 3.12rem;
-  font-size: 2rem;
+  font-size: 1.6rem;
   font-weight: bold;
   color: #5fc2ba;
   display: flex;
@@ -62,13 +62,12 @@ ${desktop({ flexDirection: 'row', marginBottom: '1rem'})}
 `;
 
 const DescItem = styled.div`
-background-color: #3b556d;
   color: white;
+  padding: 0.6rem;
   font-weight:bold;
   font-size: 1.1rem;
-  text-align: center;
-  margin-bottom: 1rem;
-  ${desktop({ marginTop: '0rem', fontSize:'1.3rem', paddingLeft:'0.6rem', fontWeight:'bold'})}
+  text-align:center;
+  ${desktop({ marginTop: '0rem', fontSize:'1.25rem', paddingLeft:'0.6rem', fontWeight:'bold'})}
 `;
 
 const Home = () => {

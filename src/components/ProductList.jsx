@@ -6,7 +6,7 @@ import creation from '../assets/artnono.png';
 import Product from './Product';
 
 const Container = styled.div`
-  background-color: #1c2942;
+  background-color: #283e68;;
   
 `;
 
@@ -34,7 +34,7 @@ const Products = styled.div`
 display: flex;
 flex-direction:column;
 align-items:center;
-${desktop({ display:'grid', gridTemplateColumns:'1fr 1fr', gridTemplateRows:' 1fr 1fr 1fr 1fr', gap:'50px 50px', width:'90%', margin:' 0 auto' })}
+${desktop({ display:'grid', gridTemplateColumns:'1fr 1fr', gridTemplateRows:' 1fr 1fr 1fr', gap:'10px 50px', width:'90%', margin:' 0 auto' })}
 `;
 
 
