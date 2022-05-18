@@ -35,7 +35,7 @@ color: white;
   width: 2.5rem;
   position: fixed;
   bottom: 1vh;
-  right: 1vw;
+  right: 0.5vw;
   animation: ${bump} 2s infinite linear alternate;
   &:hover {
     opacity: 1;
