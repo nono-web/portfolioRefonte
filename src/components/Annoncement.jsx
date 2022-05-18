@@ -30,6 +30,7 @@ font-size: 0.7rem;
   align-items: center;
   justify-content: center;
   margin: 0.3rem 0.3rem;
+  ${desktop({ fontSize: '1.4rem' })}
 `;
 
 const SocialContainer = styled.div`

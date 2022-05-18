@@ -62,7 +62,7 @@ const ListItem = styled.li`
     font-size: 2rem;
     ${desktop({ fontSize: '3rem' })}
   }
-  ${desktop({ fontSize: '1.5rem', marginBottom: '3rem' })}
+  ${desktop({ fontSize: '1.4rem', marginBottom: '3rem' })}
 `;
 
 const Right = styled.div`
@@ -103,10 +103,11 @@ const Footer = () => {
         <List>
           <ListItem>
             <svg
-              width="1.5rem"
-              height="1.5rem"
+              width="3rem"
+              height="3rem"
               viewBox="0 0 16 16"
               style={{ marginRight: '0.8rem' }}
+              
             >
               <path
                 fill="currentColor"
@@ -117,8 +118,8 @@ const Footer = () => {
           </ListItem>
           <ListItem>
             <svg
-              width="1.5rem"
-              height="1.5rem"
+              width="2rem"
+              height="2rem"
               viewBox="0 0 256 256"
               style={{ marginRight: '0.8rem' }}
             >
@@ -131,8 +132,8 @@ const Footer = () => {
           </ListItem>
           <ListItem>
             <svg
-              width="1.5rem"
-              height="1.5rem"
+              width="2rem"
+              height="2rem"
               viewBox="0 0 24 24"
               style={{ marginRight: '0.8rem' }}
             >
@@ -145,8 +146,8 @@ const Footer = () => {
           </ListItem>
           <ListItem>
             <svg
-              width="3rem"
-              height="3rem"
+              width="4rem"
+              height="4rem"
               viewBox="0 0 24 24"
               style={{ marginRight: '0.8rem' }}
             >
