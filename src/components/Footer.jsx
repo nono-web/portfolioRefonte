@@ -60,9 +60,9 @@ const ListItem = styled.li`
   &:nth-child(1) {
     font-weight: bold;
     font-size: 2rem;
-    ${desktop({ fontSize: '3rem' })}
+    ${desktop({ fontSize: '2.8rem' })}
   }
-  ${desktop({ fontSize: '1.4rem', marginBottom: '3rem' })}
+  ${desktop({ fontSize: '1.3rem', marginBottom: '3rem' })}
 `;
 
 const Right = styled.div`
