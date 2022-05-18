@@ -5,7 +5,7 @@ import { mobile } from '../responsive';
 
 const Container = styled.div`
   background-image: url(${imgHome});
-  height: 100vh;
+  height: 90vh;
   display: flex;
   flex-direction:  column;
   justify-content: center;
