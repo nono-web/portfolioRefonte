@@ -4,7 +4,6 @@ import { mobile } from '../responsive';
 
 const Container = styled.div`
   background-color: #3b556d;
-
 `;
 
 const NavList = styled.ul`

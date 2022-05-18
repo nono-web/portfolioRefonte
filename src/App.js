@@ -6,7 +6,7 @@ import About from './components/About';
 import Services from './components/Services';
 import ProductList from './components/ProductList';
 import Contact from './components/Contact';
-
+import ScrollArrow from './components/ScrollArrow';
 
 const App = () => {
   return (
@@ -19,7 +19,7 @@ const App = () => {
       <ProductList />
       <Contact />
       <Footer />
-    
+      <ScrollArrow />
       
     </div>
   );
