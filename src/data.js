@@ -13,9 +13,9 @@ export const products = [
     },
     {
       id: 3,
-      img: 'https://zupimages.net/up/22/09/uxj2.png',
-      link: 'https://planete-terre.nonoweb17.fr/',
-      title: 'Projet planete-terre en 3D',
+      img: 'https://zupimages.net/up/22/20/fmwe.png',
+      link: 'https://portfolio-v1.nonoweb17.fr/',
+      title: 'Portfolio V1'
     },
    
     {
@@ -26,8 +26,14 @@ export const products = [
     },
     {
       id: 5,
+      img: 'https://zupimages.net/up/22/09/uxj2.png',
+      link: 'https://planete-terre.nonoweb17.fr/',
+      title: 'Projet planete-terre en 3D',
+    },
+    {
+      id: 6,
       img: 'https://zupimages.net/up/21/52/j7ot.png',
       link: 'https://nono-web.github.io/Bto-Beach-/',
       title: 'Projet B-to-Beach ',
-    },
+    }
   ];

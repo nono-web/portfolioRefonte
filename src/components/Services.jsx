@@ -109,7 +109,7 @@ const Services = () => {
         </ColumnContainer>
         <ColumnContainer>
           <Image src={responsive} />
-          <TitleDesc> Adapté à tous les support</TitleDesc>
+          <TitleDesc> Adapté à tous les supports</TitleDesc>
         </ColumnContainer>
       </RowContainer>
     </Container>
