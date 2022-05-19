@@ -21,8 +21,6 @@ const Title = styled.h1`
   ${desktop({ fontSize: '3rem' })}
 `;
 
-
-
 const ImageTitle = styled.img`
   width: 12rem;
   display: block;
@@ -43,8 +41,7 @@ const Form = styled.form`
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  ${desktop({  width:'40%', margin:' 0 auto' })}
- 
+  ${desktop({ width: '40%', margin: ' 0 auto' })}
 `;
 
 const Input = styled.input`
@@ -61,18 +58,17 @@ const Input = styled.input`
     font-weight: 500;
   }
   &:hover {
-  background-color: #5fc2ba;
-}
-
+    background-color: #5fc2ba;
+  }
 `;
 
 const Yup = styled.p`
- color: tomato;
+  color: tomato;
   text-align: center;
   &::before {
-  content: '⚠';
-  text-align: center;
-}
+    content: '⚠';
+    text-align: center;
+  }
 `;
 
 const Textarea = styled.textarea`
@@ -82,9 +78,9 @@ const Textarea = styled.textarea`
   padding-left: 0.8rem;
   border: none;
   border-radius: 1.25rem;
-  background-color: #283e68;;
+  background-color: #283e68;
   &:hover {
-    background-color: #5fc2ba
+    background-color: #5fc2ba;
   }
   &::placeholder {
     color: white;
@@ -93,17 +89,17 @@ const Textarea = styled.textarea`
 `;
 
 const Button = styled.button`
- border: none;
- margin-bottom: 1.5rem;
+  border: none;
+  margin-bottom: 1.5rem;
   padding: 1rem;
   border-radius: 1.25rem;
-  background-color: #283e68;;
+  background-color: #283e68;
   color: white;
   font-weight: 500;
   cursor: pointer;
   &:hover {
-  background-color: #5fc2ba;
-}
+    background-color: #5fc2ba;
+  }
 `;
 
 const schema = yup
@@ -113,8 +109,9 @@ const schema = yup
     user_compagny: yup.string().max(30),
     user_site: yup.string().max(50),
     user_phone: yup
-      .string()
-      .max(20)
+      .number()
+      .typeError('Veuillez rentrer un numero de téléphone valide')
+      .max(10, `Votre numero doit être composé de ${10} chiffres.`)
       .required('Votre numéro de téléphone est requis'),
     user_email: yup
       .string()
@@ -163,7 +160,7 @@ const Contact = () => {
 
   return (
     <Container id="Contact">
-      <Title> CONTACTEZ-MOI </Title> 
+      <Title> CONTACTEZ-MOI </Title>
       <ImageTitle src={mail} alt="mail" />
       <LittleTitle>
         {' '}
