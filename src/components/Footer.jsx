@@ -7,6 +7,7 @@ const Container = styled.div`
   display: flex;
   flex-direction: column;
   text-align: center;
+  height: 70vh;
   ${desktop({ flexDirection: 'row' })}
 `;
 
