@@ -6,43 +6,41 @@ const Container = styled.div``;
 
 const bump = keyframes`
 
-  0% {
-    bottom: 0;
-  }
+0% {
+  bottom: 0;
+}
+25% {
+  bottom: 0.5px;
+}
+50% {
+  bottom: 0.6px;
+}
+75% {
+  bottom: 0.5px;
+}
+100% {
+  bottom: 0;
+}
 
-  25% {
-    bottom: 0.5px;
-  }
-
-  50% {
-    bottom: 0.6px;
-  }
-
-  75% {
-    bottom: 0.5px;
-  }
-
-  100% {
-    bottom: 0;
-  }
 `;
 
 const ScrollTop = styled.div`
   color: white;
-  opacity: 0;
-  height: 2.5rem;
-  width: 2.5rem;
+  width: 3rem;
+  height: 3rem;
   position: fixed;
   bottom: 1vh;
   animation: ${bump} 2s infinite linear alternate;
+  cursor: pointer;
+  opacity: 0;
+  right:0.4vw;
   &:hover {
-    opacity: 5;
+    opacity:5;
   }
-  ${desktop({ width: '3rem', height: '3rem', right: '0.4vw', opacity: 0.5})}
+  ${desktop({opacity: 0.2})}
 `;
 
 const ScrollArrow = () => {
-
   const scrollTop = () => {
     window.scrollTo({ top: 0, behavior: 'smooth' });
   };

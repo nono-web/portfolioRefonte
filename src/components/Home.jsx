@@ -67,7 +67,7 @@ const DescItem = styled.div`
   font-weight:bold;
   font-size: 1.1rem;
   text-align:center;
-  ${desktop({ marginTop: '0rem', fontSize:'1.1rem', paddingLeft:'0.6rem', fontWeight:'bold'})}
+  ${desktop({ marginTop: '0rem', fontSize:'1.5rem', paddingLeft:'0.6rem', fontWeight:'bold'})}
 `;
 
 const Home = () => {
