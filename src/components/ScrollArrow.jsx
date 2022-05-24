@@ -34,12 +34,11 @@ const ScrollTop = styled.div`
   width: 2.5rem;
   position: fixed;
   bottom: 1vh;
-  right: 2.5vw;
   animation: ${bump} 2s infinite linear alternate;
   &:hover {
     opacity: 5;
   }
-  ${desktop({ width: '3rem', height: '3rem', right: '0.4vw', opacity: 0.5 })}
+  ${desktop({ width: '3rem', height: '3rem', right: '0.4vw', opacity: 0.5})}
 `;
 
 const ScrollArrow = () => {

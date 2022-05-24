@@ -10,7 +10,7 @@ const Container = styled.div`
   flex-direction:  column;
   justify-content: center;
   align-items: center;
-  ${desktop({ backgroundSize:'cover'})}
+  ${desktop({ backgroundSize:'cover', height: '80vh'})}
 `;
 
 const Image = styled.img`

@@ -11,6 +11,7 @@ import ScrollArrow from './components/ScrollArrow';
 const App = () => {
   return (
     <div className="App">
+      <ScrollArrow />
       <Annoncement />
       <Navbar />
       <Home />
@@ -19,7 +20,7 @@ const App = () => {
       <ProductList />
       <Contact />
       <Footer />
-      <ScrollArrow />
+   
       
     </div>
   );
