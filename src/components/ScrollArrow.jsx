@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React from 'react';
 import styled, { keyframes } from 'styled-components';
 import { desktop } from '../responsive';
 
@@ -42,21 +42,11 @@ const ScrollTop = styled.div`
 `;
 
 const ScrollArrow = () => {
-  const [showScroll, setShowScroll] = useState(false);
-
-  const checkScrollTop = () => {
-    if (!showScroll && window.pageYOffset > 400) {
-      setShowScroll(true);
-    } else if (showScroll && window.pageYOffset <= 400) {
-      setShowScroll(false);
-    }
-  };
 
   const scrollTop = () => {
     window.scrollTo({ top: 0, behavior: 'smooth' });
   };
 
-  window.addEventListener('scroll', checkScrollTop);
   return (
     <Container>
       <ScrollTop onClick={scrollTop}>
