@@ -91,8 +91,8 @@ const About = () => {
       </Header>
       <Desc>
         <DescText>
-          Laissez-moi d'abord me présenter, j'ai 32 ans, je suis développeur web
-          et créateur de contenu sur Youtube Lien chaîne Youtube.
+          Laissez-moi d'abord me présenter, j'ai 33 ans, je suis développeur web
+          et créateur de contenu sur Youtube.
         </DescText>
         <DescText>
           J’habite actuellement à Montguyon en Charente-Maritime (17). Après 10
