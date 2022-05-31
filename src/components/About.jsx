@@ -86,7 +86,7 @@ const About = () => {
   return (
     <Container id="About">
       <Header>
-        <Title> TU ES QUI NONODUWEB ? </Title>
+        <Title> TU ES QUI NONODUWEB{' '}? </Title>
         <Image src={nonoduweb} alt="nonoduweb" />
       </Header>
       <Desc>

@@ -83,10 +83,10 @@ const Home = () => {
           </TitleWrapper>
         </Title>
         <Desc>
-          <DescItem>Vous avez un projet de site web ?</DescItem>
-          <DescItem>Vous ne savez pas comment vous y prendre ? </DescItem>
-          <DescItem>Ou vous ne voulez pas le faire seul ?</DescItem>
-          <DescItem>Vous êtes au bon endroit. Suivez-moi !</DescItem>
+          <DescItem>Vous avez un projet de site web{' '}? </DescItem>
+          <DescItem>Vous ne savez pas comment vous y prendre{' '}? </DescItem>
+          <DescItem>Ou vous ne voulez pas le faire seul{' '}?</DescItem>
+          <DescItem>Vous êtes au bon endroit. Suivez-moi{' '}!</DescItem>
         </Desc>
     </Container>
   );

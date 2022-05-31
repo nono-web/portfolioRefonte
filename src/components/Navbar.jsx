@@ -34,6 +34,7 @@ const ListItem = styled.li`
   cursor: pointer;
   padding: 0.6rem;
   font-size: 0.7rem;
+  border-bottom: 4px solid #3b556d;
   &:hover {
     border-bottom: 4px solid white;
   }

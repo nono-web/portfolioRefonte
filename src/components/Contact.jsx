@@ -165,8 +165,9 @@ const Contact = () => {
       <LittleTitle>
         {' '}
         Le chemin le plus simple pour me contacter pour votre projet ou juste
-        pour me poser une question :{' '}
+        pour me poser une question{' '}:{' '}
       </LittleTitle>
+     
       <Form onSubmit={handleSubmit(onSubmit)}>
         <Input
           type="text"
