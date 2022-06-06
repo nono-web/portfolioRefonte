@@ -7,26 +7,9 @@ import Services from './components/Services';
 import ProductList from './components/ProductList';
 import Contact from './components/Contact';
 import ScrollArrow from './components/ScrollArrow';
-import Loader from './components/Loader';
-import { useState, useEffect } from 'react';
-
-
-
-
-
-
 
 const App = () => {
-  const [loader, setLoader] = useState(true);
-
-  useEffect(() => {
-    setTimeout(() => {
-      setLoader(false);
-    }, 3000);
-  }, []);
-  return loader ? (
-    <Loader />
-  ) : (
+  return (
     <div className="App">
       <ScrollArrow />
       <Annoncement />
