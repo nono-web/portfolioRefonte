@@ -8,7 +8,7 @@ const Container = styled.div `
   border-radius: 3rem;
   overflow: hidden;
   &:hover {
-    transform: scale(1.2);
+    transform: scale(1.1);
   }
 `
 
