@@ -17,21 +17,14 @@ export const products = [
       link: 'https://portfolio-v1.nonoweb17.fr/',
       title: 'Portfolio V1'
     },
-   
     {
       id: 4,
-      img: 'https://zupimages.net/up/22/09/dhps.png',
-      link: 'https://styletreize.fr/',
-      title: 'Projet StyleTreize (WordPress)',
-    },
-    {
-      id: 5,
       img: 'https://zupimages.net/up/22/09/uxj2.png',
       link: 'https://planete-terre.nonoweb17.fr/',
       title: 'Projet planete-terre en 3D',
     },
     {
-      id: 6,
+      id: 5,
       img: 'https://zupimages.net/up/21/52/j7ot.png',
       link: 'https://nono-web.github.io/Bto-Beach-/',
       title: 'Projet B-to-Beach ',
