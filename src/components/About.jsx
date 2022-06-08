@@ -108,7 +108,7 @@ const About = () => {
           retravailler le design ou de construire un projet de A à Z.
         </DescText>
       </Desc>
-      <TitleSkill> MES COMPETENCES</TitleSkill>
+      <TitleSkill> Les langages et technologies que j'ai déjà utilisés :</TitleSkill>
       <Skill>
         <SkillItem src={html} alt="HTML/CSS" />
         <SkillItem src={css} alt="CSS" />
