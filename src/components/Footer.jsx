@@ -64,7 +64,7 @@ const ListItem = styled.li`
     font-size: 2rem;
     ${desktop({ fontSize: '2.5rem' })}
   }
-  ${desktop({ fontSize: '1.2rem', marginBottom: '3rem' })}
+  ${desktop({ marginBottom: '3rem' })}
 `;
 
 const Right = styled.div`
