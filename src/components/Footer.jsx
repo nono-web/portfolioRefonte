@@ -9,7 +9,7 @@ const Container = styled.div`
   flex-direction: column;
   text-align: center;
   height: 100vh;
-  ${desktop({ flexDirection: 'row', height: '90vh' })}
+  ${desktop({ flexDirection: 'row'})}
 `;
 
 const Left = styled.div`
