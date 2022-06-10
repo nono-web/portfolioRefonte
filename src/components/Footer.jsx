@@ -1,6 +1,7 @@
 import styled from 'styled-components';
 import logo from '../assets/logo.png';
 import { desktop } from '../responsive';
+import webinC from '../assets/webin.png'
 
 const Container = styled.div`
   background-color: #5fc2ba;
@@ -8,7 +9,7 @@ const Container = styled.div`
   flex-direction: column;
   text-align: center;
   height: 90vh;
-  ${desktop({ flexDirection: 'row', height: '80vh' })}
+  ${desktop({ flexDirection: 'row' })}
 `;
 
 const Left = styled.div`
@@ -92,6 +93,11 @@ const SocialIcon = styled.div`
   ${desktop({ width: '3rem' })}
 `;
 
+const Image = styled.img `
+width: 3rem;
+  height: 3rem;
+`
+
 const Footer = () => {
   return (
     <Container>
@@ -159,6 +165,16 @@ const Footer = () => {
             </svg>
             Du Lundi au Vendredi de 9h à 18h et le Samedi sur rendez-vous.
           </ListItem>
+          <ListItem>
+          <svg
+              width="10rem"
+              height="5rem"
+              viewBox="0 0 24 24"
+              style={{ marginRight: '0.8rem' }}
+            >
+              <path fill="currentColor" d="M12 1L3 5v6c0 5.55 3.84 10.74 9 12c5.16-1.26 9-6.45 9-12V5l-9-4zm7 10c0 4.52-2.98 8.69-7 9.93c-4.02-1.24-7-5.41-7-9.93V6.3l7-3.11l7 3.11V11zm-11.59.59L6 13l4 4l8-8l-1.41-1.42L10 14.17z"></path></svg>
+              En partenariat avec l'entreprise  WebInCompagny  -10% de réduction sur votre hébergement web avec le code "nonoduweb"
+          </ListItem>
         </List>
       </Center>
       <Right>
@@ -225,6 +241,15 @@ const Footer = () => {
                   fill="currentColor"
                 ></path>
               </svg>
+            </SocialIcon>
+          </Link>
+          <Link
+            href="https://www.linkedin.com/company/webincompany/"
+            target="_blank"
+            rel="noopener"
+          >
+            <SocialIcon>
+              <Image src={webinC} atl="WebinC" />
             </SocialIcon>
           </Link>
         </SocialContainer>
