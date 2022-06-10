@@ -8,8 +8,8 @@ const Container = styled.div`
   display: flex;
   flex-direction: column;
   text-align: center;
-  height: 90vh;
-  ${desktop({ flexDirection: 'row' })}
+  height: 100vh;
+  ${desktop({ flexDirection: 'row', height: '90vh' })}
 `;
 
 const Left = styled.div`
@@ -94,8 +94,9 @@ const SocialIcon = styled.div`
 `;
 
 const Image = styled.img `
-width: 3rem;
-  height: 3rem;
+width: 2rem;
+height: 2rem;
+  ${desktop({ width: '3rem', height: '3rem' })}
 `
 
 const Footer = () => {
