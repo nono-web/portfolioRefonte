@@ -2,7 +2,7 @@ export const products = [
     {
       id: 1,
       img: 'https://zupimages.net/up/22/17/5uxt.png',
-      link: 'https://boutique.nonoweb17.fr/',
+      link: 'https://ecommercetest.nonoweb17.fr/',
       title: 'Projet E-commerce ',
     },
     {
