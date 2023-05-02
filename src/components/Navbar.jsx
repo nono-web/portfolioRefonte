@@ -44,7 +44,7 @@ const ListItem = styled.li`
 const Logo = styled.img`
   width: 100%;
   cursor: pointer;
-  ${desktop({ width: '9rem' })}
+  ${desktop({ width: '12rem' })}
 `;
 
 const Navbar = () => {
